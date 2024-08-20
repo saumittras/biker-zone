@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Google font CDN -->
 
+    <!-- Google font CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +13,6 @@
     />
 
     <!-- Tailwind CSS and DaisyUI CDN are added Here -->
-
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
       rel="stylesheet"
@@ -34,6 +33,7 @@
             colors: {
               clifford: "#da373d",
               "bike-primary": "#E76F51",
+              "bike-primary-bg": "rgba(231, 111, 81, 0.1)",
             },
           },
         },
@@ -45,6 +45,7 @@
   <body class="font-poppins">
     <!-- Header Section Start from Here -->
     <header class="md:container mx-auto">
+      <!-- Nav Bar Start From Here -->
       <nav>
         <div class="navbar bg-base-100">
           <div class="flex-1">
@@ -90,11 +91,143 @@
           </div>
         </div>
       </nav>
+      <!-- Nav bar End from Here -->
+
+      <!-- Slider style start from here -->
+      <div class="carousel lg:h-[550px] w-full">
+        <!-- Slide 1 style start from Here -->
+        <div
+          id="slide1"
+          class="carousel-item relative bg-bike-primary-bg w-full"
+        >
+          <div class="flex flex-col lg:flex-row lg:p-24">
+            <!-- Slider Text content -->
+            <div class="flex-1 m-7 lg:m-14">
+              <h1 class="text-6xl font-bold mb-5">
+                Ride-on R15 V4 <br />with Smile
+              </h1>
+              <p class="text-sm text-gray-500 mb-7">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-bike-primary text-white">Purchase</button>
+            </div>
+            <!-- Slider Image Content -->
+            <div class="flex-1 lg:w-[406px] md:h-[344px]">
+              <img src="images/slider/bike1.png" class="md:w-[440px]" />
+            </div>
+          </div>
+
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- Slide 1 style End from Here -->
+
+        <!-- Slide 2 style start from Here -->
+        <div
+          id="slide2"
+          class="carousel-item relative bg-bike-primary-bg w-full"
+        >
+          <div class="flex flex-col lg:flex-row lg:p-24">
+            <!-- Slider Text content -->
+            <div class="flex-1 m-7 lg:m-14">
+              <h1 class="text-6xl font-bold mb-5">
+                Ride-on R15 V4 <br />with Smile
+              </h1>
+              <p class="text-sm text-gray-500 mb-7">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-bike-primary text-white">Purchase</button>
+            </div>
+            <!-- Slider Image Content -->
+            <div class="flex-1 lg:w-[406px] md:h-[344px]">
+              <img src="images/slider/bike2.png" class="md:w-[440px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- Slide 2 style End from Here -->
+
+        <!-- Slide 3 style start from Here -->
+        <div
+          id="slide3"
+          class="carousel-item relative bg-bike-primary-bg w-full"
+        >
+          <div class="flex flex-col lg:flex-row lg:p-24">
+            <!-- Slider Text content -->
+            <div class="flex-1 m-7 lg:m-14">
+              <h1 class="text-6xl font-bold mb-5">
+                Ride-on R15 V4 <br />with Smile
+              </h1>
+              <p class="text-sm text-gray-500 mb-7">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-bike-primary text-white">Purchase</button>
+            </div>
+            <!-- Slider Image Content -->
+            <div class="flex-1 lg:w-[406px] md:h-[344px]">
+              <img src="images/slider/bike3.png" class="md:w-[440px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- Slide 3 style End from Here -->
+
+        <!-- Slide 4 style start from Here -->
+        <div
+          id="slide4"
+          class="carousel-item relative bg-bike-primary-bg w-full"
+        >
+          <div class="flex flex-col lg:flex-row lg:p-24">
+            <!-- Slider Text content -->
+            <div class="flex-1 m-7 lg:m-14">
+              <h1 class="text-6xl font-bold mb-5">
+                Ride-on R15 V4 <br />with Smile
+              </h1>
+              <p class="text-sm text-gray-500 mb-7">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn bg-bike-primary text-white">Purchase</button>
+            </div>
+            <!-- Slider Image Content -->
+            <div class="flex-1 lg:w-[406px] md:h-[344px]">
+              <img src="images/slider/bike4.png" class="md:w-[440px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- Slide 4 style End from Here -->
+      </div>
+      <!-- Slider style end from here -->
     </header>
     <!-- Header Section End from Here -->
 
+    <!-- ******************************# END the Header Section #****************************************** -->
     <!-- main Section Start from Here -->
     <main></main>
     <!-- main Section End from Here -->
+    <!-- ******************************# END the Main Section #****************************************** -->
   </body>
 </html>
